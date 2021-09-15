@@ -1,0 +1,27 @@
+@baseUrl = http://localhost:3000/api
+
+# @name getAllUsers
+GET {{baseUrl}}/categories
+
+###
+
+# @name addNewUsers
+POST {{baseUrl}}/users
+Content-Type:  application/json
+
+{
+    "username": "Admin3",
+    "password": "123234"
+}
+
+###
+DELETE {{baseUrl}}/users/2
+
+###
+PATCH  {{baseUrl}}/users/6
+Content-Type:  application/json
+
+{
+    "username": "Admin6",
+    "password": "123234",
+}

@@ -1,0 +1,50 @@
+@baseUrl = http://localhost:3000/api
+@resourceName=products
+# @name getAllProducts
+GET {{baseUrl}}/{{resourceName}}
+
+###
+
+# @name filterProduct
+# GET  {{baseUrl}}/{{resourceName}}?price_gte=800
+GET  {{baseUrl}}/{{resourceName}}?name_like=ac
+
+###
+
+# @name pagination
+GET  {{baseUrl}}/{{resourceName}}?_page=1&_limit=3
+
+###
+
+# @name sortProduct
+GET  {{baseUrl}}/{{resourceName}}?_sort=price&_order=desc
+
+###
+
+# @name postProduct
+POST {{baseUrl}}/{{resourceName}}
+Content-Type:  application/json
+
+{
+    "categoryId": "b2d8a969-1f18-4e5b-85f2-fc1af369ea2a",
+    "name": "Gorgeous Steel Chips",
+    "color": "maroon",
+    "price": 792,
+    "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+    "thumbnailUrl": "http://placeimg.com/400/400"
+}
+
+###
+DELETE {{baseUrl}}/{{resourceName}}/e7vVMmo
+
+###
+PATCH  {{baseUrl}}/{{resourceName}}/e7vVMmo
+Content-Type:  application/json
+
+{
+  "name": "Gorgeous Steel Chips Update",
+  "color": "maroon",
+  "price": 712,
+  "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+  "thumbnailUrl": "http://placeimg.com/400/400"
+}

@@ -1,0 +1,251 @@
+{
+    "categories": [
+        {
+            "id": "60e46033-b74c-4191-b81c-490fab77c424",
+            "name": "Music",
+            "createAt": 1631719085097,
+            "updateAt": 1631719085097
+        },
+        {
+            "id": "42055b8d-ce27-44a1-a952-cf7f7e715e0e",
+            "name": "Baby",
+            "createAt": 1631719085097,
+            "updateAt": 1631719085097
+        },
+        {
+            "id": "52cb6ff2-949d-4665-9a3a-9b1c195f24ea",
+            "name": "Shoes",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098
+        },
+        {
+            "id": "012def97-a041-4b0d-8fc5-b56c9e759c5d",
+            "name": "Grocery",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098
+        }
+    ],
+    "products": [
+        {
+            "categoryId": "60e46033-b74c-4191-b81c-490fab77c424",
+            "id": "d5966d2b-1c64-4662-9544-b5c8b6500171",
+            "name": "Ergonomic Soft Car",
+            "color": "salmon",
+            "price": 258,
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "60e46033-b74c-4191-b81c-490fab77c424",
+            "id": "1d7dcd09-410e-49f7-8166-86da6508c1e4",
+            "name": "Licensed Frozen Hat",
+            "color": "teal",
+            "price": 825,
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "60e46033-b74c-4191-b81c-490fab77c424",
+            "id": "69c668c9-2dd1-4eda-94ac-36c6b0b2508f",
+            "name": "Gorgeous Soft Table",
+            "color": "mint green",
+            "price": 10,
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "60e46033-b74c-4191-b81c-490fab77c424",
+            "id": "2ce1832d-963b-4c04-be21-7c8380980ab9",
+            "name": "Licensed Frozen Car",
+            "color": "olive",
+            "price": 298,
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "60e46033-b74c-4191-b81c-490fab77c424",
+            "id": "f56c0598-ceef-4b57-8af6-679cfd423478",
+            "name": "Refined Wooden Bike",
+            "color": "fuchsia",
+            "price": 773,
+            "description": "The Football Is Good For Training And Recreational Purposes",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "42055b8d-ce27-44a1-a952-cf7f7e715e0e",
+            "id": "c0b86ada-1e24-4ef8-9b60-c03a3982e878",
+            "name": "Refined Concrete Pants",
+            "color": "blue",
+            "price": 884,
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "42055b8d-ce27-44a1-a952-cf7f7e715e0e",
+            "id": "0bd2916e-2b81-4499-88bf-804370ad3091",
+            "name": "Gorgeous Fresh Towels",
+            "color": "salmon",
+            "price": 461,
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "42055b8d-ce27-44a1-a952-cf7f7e715e0e",
+            "id": "606d3efd-3d2f-47be-b114-d2e6019048a6",
+            "name": "Awesome Concrete Salad",
+            "color": "lime",
+            "price": 254,
+            "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "42055b8d-ce27-44a1-a952-cf7f7e715e0e",
+            "id": "711a966f-54ef-4791-b9b9-270608f70c70",
+            "name": "Small Fresh Soap",
+            "color": "black",
+            "price": 223,
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "42055b8d-ce27-44a1-a952-cf7f7e715e0e",
+            "id": "16a2f8e6-c169-4821-901a-df4820070ac3",
+            "name": "Ergonomic Plastic Shirt",
+            "color": "olive",
+            "price": 513,
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "createAt": 1631719085098,
+            "updateAt": 1631719085098,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "52cb6ff2-949d-4665-9a3a-9b1c195f24ea",
+            "id": "870b05e6-677d-4b6f-8b93-d89953610536",
+            "name": "Refined Plastic Bacon",
+            "color": "maroon",
+            "price": 810,
+            "description": "The Football Is Good For Training And Recreational Purposes",
+            "createAt": 1631719085099,
+            "updateAt": 1631719085099,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "52cb6ff2-949d-4665-9a3a-9b1c195f24ea",
+            "id": "7c9e4110-a05f-4ed2-8e15-1f34e808a403",
+            "name": "Gorgeous Metal Tuna",
+            "color": "silver",
+            "price": 370,
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "createAt": 1631719085099,
+            "updateAt": 1631719085099,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "52cb6ff2-949d-4665-9a3a-9b1c195f24ea",
+            "id": "43fd6179-6731-4aa0-aaa4-32a3ac221117",
+            "name": "Awesome Soft Towels",
+            "color": "blue",
+            "price": 60,
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "createAt": 1631719085099,
+            "updateAt": 1631719085099,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "52cb6ff2-949d-4665-9a3a-9b1c195f24ea",
+            "id": "297a9b9f-d5f5-47d3-9f9a-0d9ebf8cd45c",
+            "name": "Rustic Wooden Pants",
+            "color": "lavender",
+            "price": 676,
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "createAt": 1631719085099,
+            "updateAt": 1631719085099,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "52cb6ff2-949d-4665-9a3a-9b1c195f24ea",
+            "id": "40476f00-0483-4462-81ef-7898a200b645",
+            "name": "Tasty Cotton Shirt",
+            "color": "lavender",
+            "price": 59,
+            "description": "The Football Is Good For Training And Recreational Purposes",
+            "createAt": 1631719085099,
+            "updateAt": 1631719085099,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "012def97-a041-4b0d-8fc5-b56c9e759c5d",
+            "id": "704a2a3e-8bb4-4862-9920-6c9dbfc7d09f",
+            "name": "Incredible Frozen Cheese",
+            "color": "fuchsia",
+            "price": 931,
+            "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+            "createAt": 1631719085099,
+            "updateAt": 1631719085099,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "012def97-a041-4b0d-8fc5-b56c9e759c5d",
+            "id": "343a462c-c9fa-45ac-a58b-ba5308b55fbb",
+            "name": "Intelligent Plastic Chicken",
+            "color": "orchid",
+            "price": 952,
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "createAt": 1631719085099,
+            "updateAt": 1631719085099,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "012def97-a041-4b0d-8fc5-b56c9e759c5d",
+            "id": "75693e6e-aa1e-49d7-b146-a849b7c5b6b6",
+            "name": "Refined Plastic Chair",
+            "color": "teal",
+            "price": 772,
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "createAt": 1631719085099,
+            "updateAt": 1631719085099,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "012def97-a041-4b0d-8fc5-b56c9e759c5d",
+            "id": "b3c2b65d-7f43-499e-a63b-1c8378e6b60c",
+            "name": "Tasty Soft Bacon",
+            "color": "plum",
+            "price": 157,
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "createAt": 1631719085099,
+            "updateAt": 1631719085099,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "categoryId": "012def97-a041-4b0d-8fc5-b56c9e759c5d",
+            "id": "2f5359d6-58ed-4cd6-953e-288d3191a154",
+            "name": "Intelligent Soft Shirt",
+            "color": "green",
+            "price": 336,
+            "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+            "createAt": 1631719085099,
+            "updateAt": 1631719085099,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        }
+    ],
+    "profile": { "name": "Po" }
+}

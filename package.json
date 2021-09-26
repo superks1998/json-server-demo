@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "npm run generate-data && node main.js",
+        "start": "node login.js",
         "dev": "npm run generate-data && nodemon main.js",
         "test": "echo \"Error: no test specified\" && exit 1",
         "generate-data": "node generate-data.js"
@@ -12,8 +12,11 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "body-parser": "^1.19.0",
         "faker": "^5.5.3",
+        "fs": "0.0.1-security",
         "json-server": "^0.16.3",
+        "jsonwebtoken": "^8.5.1",
         "query-string": "^7.0.1"
     },
     "devDependencies": {

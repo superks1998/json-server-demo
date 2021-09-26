@@ -1,7 +1,7 @@
 const jsonServer = require('json-server');
 const queryString = require('query-string');
 const server = jsonServer.create();
-const router = jsonServer.router('db.json');
+const router = jsonServer.router('users.json');
 const middlewares = jsonServer.defaults();
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares);
@@ -25,34 +25,38 @@ server.use((req, res, next) => {
     next();
 });
 
+server.post('/api/login', (req, res) => {
+    console.log('login success');
+});
+
 // Custom output for LIST with pagination
-router.render = (req, res) => {
-    // Check GET with pagination
-    // If yes, custom output
-    const headers = res.getHeaders();
+// router.render = (req, res) => {
+//     // Check GET with pagination
+//     // If yes, custom output
+//     const headers = res.getHeaders();
 
-    const totalCountHeader = headers['x-total-count'];
-    if (req.method === 'GET' && totalCountHeader) {
-        const queryParams = queryString.parse(req._parsedUrl.query);
+//     const totalCountHeader = headers['x-total-count'];
+//     if (req.method === 'GET' && totalCountHeader) {
+//         const queryParams = queryString.parse(req._parsedUrl.query);
 
-        const result = {
-            data: res.locals.data,
-            pagination: {
-                _page: Number.parseInt(queryParams._page) || 1,
-                _limit: Number.parseInt(queryParams._limit) || 1,
-                _totalRows: Number.parseInt(totalCountHeader),
-            },
-        };
+//         const result = {
+//             data: res.locals.data,
+//             pagination: {
+//                 _page: Number.parseInt(queryParams._page) || 1,
+//                 _limit: Number.parseInt(queryParams._limit) || 1,
+//                 _totalRows: Number.parseInt(totalCountHeader),
+//             },
+//         };
 
-        return res.jsonp(result);
-    }
-    // Otherwise, keep defaut behavior
-    res.jsonp(res.locals.data);
-};
+//         return res.jsonp(result);
+//     }
+//     // Otherwise, keep defaut behavior
+//     res.jsonp(res.locals.data);
+// };
 
 // Use default router
 server.use('/api', router);
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 server.listen(PORT, () => {
     console.log('JSON Server is running');
 });
